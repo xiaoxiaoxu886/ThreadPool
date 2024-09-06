@@ -1,0 +1,13 @@
+﻿  ThreadPool.cpp
+e:\c++workspace\threadpoolprograme\threadpoolprograme\threadpool.cpp(46): error C2280: “Result::Result(const Result &)”: 尝试引用已删除的函数
+  e:\c++workspace\threadpoolprograme\threadpoolprograme\threadpool.h(108): note: 编译器已在此处生成“Result::Result”
+  e:\c++workspace\threadpoolprograme\threadpoolprograme\threadpool.h(108): note: “Result::Result(const Result &)”: 因为 数据成员 调用已删除或不可访问的函数“Any::Any(const Any &)”，所以已隐式删除函数
+  e:\c++workspace\threadpoolprograme\threadpoolprograme\threadpool.h(17): note: “Any::Any(const Any &)”: 已显式删除函数
+e:\c++workspace\threadpoolprograme\threadpoolprograme\threadpool.cpp(157): error C2572: “Result::Result”: 重定义默认参数 : 参数 1
+  e:\c++workspace\threadpoolprograme\threadpoolprograme\threadpool.h(95): note: 参见“Result::Result”的声明
+  线程池项目测试cpp.cpp
+e:\c++workspace\threadpoolprograme\threadpoolprograme\线程池项目测试cpp.cpp(37): error C2280: “Result::Result(const Result &)”: 尝试引用已删除的函数
+  e:\c++workspace\threadpoolprograme\threadpoolprograme\threadpool.h(108): note: 编译器已在此处生成“Result::Result”
+  e:\c++workspace\threadpoolprograme\threadpoolprograme\threadpool.h(108): note: “Result::Result(const Result &)”: 因为 数据成员 调用已删除或不可访问的函数“Any::Any(const Any &)”，所以已隐式删除函数
+  e:\c++workspace\threadpoolprograme\threadpoolprograme\threadpool.h(17): note: “Any::Any(const Any &)”: 已显式删除函数
+  正在生成代码...

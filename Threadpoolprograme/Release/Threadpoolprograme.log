@@ -1,0 +1,20 @@
+﻿  ThreadPool.cpp
+E:\C++workspace\Threadpoolprograme\Threadpoolprograme\ThreadPool.cpp(143,24): warning C4018: “>”: 有符号/无符号不匹配
+  线程池项目测试cpp.cpp
+E:\VisualStudio2019\vs\VC\Tools\MSVC\14.29.30133\include\xutility(149,56): error C2512: “myTask::myTask”: 没有合适的默认构造函数可用
+E:\VisualStudio2019\vs\VC\Tools\MSVC\14.29.30133\include\memory(2006): message : 查看对正在编译的函数 模板 实例化“void std::_Construct_in_place<_Ty,>(_Ty &) noexcept(false)”的引用
+          with
+          [
+              _Ty=myTask
+          ]
+E:\VisualStudio2019\vs\VC\Tools\MSVC\14.29.30133\include\memory(2725): message : 查看对正在编译的函数 模板 实例化“std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<>(void)”的引用
+          with
+          [
+              _Ty=myTask
+          ]
+E:\VisualStudio2019\vs\VC\Tools\MSVC\14.29.30133\include\memory(2726): message : 查看对正在编译的函数 模板 实例化“std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<>(void)”的引用
+          with
+          [
+              _Ty=myTask
+          ]
+E:\C++workspace\Threadpoolprograme\Threadpoolprograme\线程池项目测试cpp.cpp(39): message : 查看对正在编译的函数 模板 实例化“std::shared_ptr<myTask> std::make_shared<myTask,>(void)”的引用
